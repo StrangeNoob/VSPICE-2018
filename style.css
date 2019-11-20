@@ -411,6 +411,7 @@ button:focus {
 	text-align: center;
 	padding: 0 120px;
 	width: 100%;
+	font-size: medium;
 }
 
 .mu-title {
