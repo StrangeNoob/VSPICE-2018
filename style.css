@@ -36,6 +36,7 @@ body {
 	letter-spacing: 0.5px;
 	line-height: 1.5;
 	color: #1c1b1b;
+	text-align: justify;
 }
 
 ul {
@@ -428,6 +429,14 @@ button:focus {
 	width: 100%;
 }
 
+.mu-about-left-Logodisplay {
+	display: inline;
+	/* display: block; */
+ 	margin-left: auto;
+  	margin-right: auto;
+	width: 50%;
+}
+
 .mu-about-right {
 	display: inline;
 	float: left;
@@ -738,6 +747,25 @@ button:focus {
 	width: 100%;
 	padding: 15px;
 	overflow: hidden;
+	/* min-width: 30px; */
+	/* max-width: 00px; */
+	max-height: 350px;
+	min-height: 350px;
+}
+
+.mu-single-date-price {
+	background-color: #f8f8f8;
+	display: inline;
+	float: left;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	padding: 15px;
+	overflow: hidden;
+	/* min-width: 30px; */
+	/* max-width: 00px; */
+	max-height: 150px;
+	min-height: 150px;
 }
 
 .mu-single-date-head {
@@ -745,8 +773,8 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
-	margin-bottom: 10px;
-	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
 }
 
 
