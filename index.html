@@ -110,29 +110,43 @@
 	</header>
 	<!-- End Header -->
 	<!-- Start Carousel-->
-	<div class="slider">
-		<input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
-		<input type="radio" name="slider" title="slide2" class="slider__nav"/>
-		<input type="radio" name="slider" title="slide3" class="slider__nav"/>
-		<input type="radio" name="slider" title="slide4" class="slider__nav"/>
-		<div class="slider__inner">
-		  <div class="slider__contents">
-			<img class="slider__image" src="/assets/images/images1.jpg">
-		  </div>
-		  <div class="slider__contents">
-			<img class="slider__image" src="/assets/images/images2.jpg">
-		  </div>
-		  <div class="slider__contents">
-			<img class="slider__image" src="/assets/images/images3.jpg">
-		  </div>
-		  <div class="slider__contents">
-			<img class="slider__image" src="/assets/images/images4.jpg">
-		  </div>
-		  <div class="slider__contents">
-			<img class="slider__image" src="/assets/images/images5.jpg">
-		  </div>
-		</div>
-	  </div>
+	<div class="container">
+		<div class="carousel">
+			<input type="radio" id="carousel-1" name="carousel[]" checked>
+			<input type="radio" id="carousel-2" name="carousel[]">
+		 <input type="radio" id="carousel-3" name="carousel[]">
+			<input type="radio" id="carousel-4" name="carousel[]">
+			<input type="radio" id="carousel-5" name="carousel[]">
+			<ul class="carousel__items">
+				<li class="carousel__item"><img src="assets/images/images1.jpg" alt=""></li>
+				<li class="carousel__item"><img src="assets/images/images2.jpg" alt=""></li>
+				<li class="carousel__item"><img src="assets/images/images3.jpg" alt=""></li>
+				<li class="carousel__item"><img src="assets/images/images4.jpg" alt=""></li>
+				<li class="carousel__item"><img src="assets/images/images5.jpg" alt=""></li>
+			</ul>
+		 <div class="carousel__prev">
+			<label for="carousel-1"></label>
+			<label for="carousel-2"></label>
+			<label for="carousel-3"></label>
+			<label for="carousel-4"></label>
+			<label for="carousel-5"></label>
+		 </div>
+		 <div class="carousel__next">
+		   <label for="carousel-1"></label>
+		   <label for="carousel-2"></label>
+		   <label for="carousel-3"></label>
+		   <label for="carousel-4"></label>
+		   <label for="carousel-5"></label>
+		 </div>
+		 <div class="carousel__nav">
+		   <label for="carousel-1"></label>
+		   <label for="carousel-2"></label>
+		   <label for="carousel-3"></label>
+		   <label for="carousel-4"></label>
+		   <label for="carousel-5"></label>
+		 </div>
+	   </div>
+	 </div>
 	<!-- End Carousel-->
 	<!-- Start main content -->
 	
